@@ -45,12 +45,12 @@ async def infó():
     embed.set_footer(text='BENDY BOT|v1.0')
     await client.say(embed=embed)
 	
-@bot.event
-async def on_message(message):
-    if message.author == bot.user:
-        return
-    if message.channel.id in channel_ids:
-        await bot.send_message(message.channel, message.content)
-    await bot.process_commands(message)
+
+
+
+
+
+
+
 
 client.run("NTU2NTQ4NzM3MDM2NDUxODQ2.D27dWA.lp6BOu5OViE8_RXECgoj9tmi5xU")
