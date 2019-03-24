@@ -35,7 +35,7 @@ async def piros():
     await client.say(embed=embed)
    
 @client.command(pass_context=True)
-async def infó():
+async def segítség():
     embed = discord.Embed(
         title = 'Információk',
         description = 'Parancsaim: /info',
