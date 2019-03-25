@@ -10,7 +10,7 @@ print ("Loading....")
 @client.event
 async def on_ready():
 	print ("The bot is online!")
-	await client.change_presence(game=discord.Game(name='Support server:AndroidGamesCommunity | BENDY BOT v1.0', type=3))
+	await client.change_presence(game=discord.Game(name='Support server:AndroidGamesCommunity' ,ype=3))
 	
 @client.command()
 async def ping():
