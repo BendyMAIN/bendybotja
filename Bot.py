@@ -10,7 +10,7 @@ print ("Loading....")
 @client.event
 async def on_ready():
 	print ("The bot is online!")
-	await client.change_presence(game=discord.Game(name='BENDY BOT | v1.0', type=3))
+	await client.change_presence(game=discord.Game(name='Support server:AndroidGamesCommunity | BENDY BOT v1.0, type=3))
 	
 @client.command()
 async def ping():
@@ -31,7 +31,7 @@ async def piros():
     )
     embed.add_field(name='Név', value='Érték', inline=False)
     embed.add_field(name='Név', value='Érték', inline=False)
-    embed.set_footer(text='TutorialBot | v1.0')
+    embed.set_footer(text='BENDY BOT | v1.0')
     await client.say(embed=embed)
    
 @client.command(pass_context=True)
