@@ -47,7 +47,7 @@ async def segítség():
 	
 
 
-  
+ client.run("NTU2NTQ4NzM3MDM2NDUxODQ2.D27dWA.lp6BOu5OViE8_RXECgoj9tmi5xU") 
 
 
 
@@ -86,4 +86,4 @@ async def segítség():
 
 
 
-client.run("NTU2NTQ4NzM3MDM2NDUxODQ2.D27dWA.lp6BOu5OViE8_RXECgoj9tmi5xU")
+
