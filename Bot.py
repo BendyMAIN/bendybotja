@@ -39,8 +39,8 @@ async def segítség():
     embed = discord.Embed(
         title = 'Információk',
         description = 'Parancsaim: /info',
-        colour = discord.Colour.green(
-    )
+        colour = discord.Colour.green()
+	    
     embed.add_field(name='By', value='BENDY', inline=False)
     embed.set_footer(text='BENDY BOT|v1.0')
     await client.say(embed=embed)
