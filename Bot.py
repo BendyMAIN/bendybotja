@@ -47,11 +47,11 @@ async def segítség():
 	
 
 
-   
+  
 
-@client.command(pass_context=True)
+@cl
 
-async def say(ctx, *, text: str="None"):
+
 
 
 
@@ -61,7 +61,7 @@ async def say(ctx, *, text: str="None"):
 
         return await client.say(embed=embed)
 
-    if notctx.message.author.server_permissions.administrator:
+
 
 
 
