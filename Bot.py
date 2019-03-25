@@ -49,7 +49,6 @@ async def segítség():
 
   
 
-@cl
 
 
 
@@ -59,7 +58,8 @@ async def segítség():
 
 
 
-        return await client.say(embed=embed)
+
+
 
 
 
