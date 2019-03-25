@@ -47,7 +47,39 @@ async def segítség():
 	
 
 
+   
 
+@client.command(pass_context=True)
+
+async def say(ctx, *, text: str="None"):
+
+    if ctx.message.server == None:
+
+        embed = discord.Embed(title='Warn!',description='You may not use this command in private messages!', colour=discord.Colour.red())
+
+        embed.set_footer(text="Moderator | v1.0")
+
+        return await client.say(embed=embed)
+
+    if notctx.message.author.server_permissions.administrator:
+
+        embed = discord.Embed(title='warn!',description='You do not have the right to this!',colour=discord.Colour.red())
+
+        embed.set_footer(text="Moderator | v1.0")
+
+        return await client.say(embed=embed)
+
+    if text == "None":
+
+        embed = discord.Embed(title='warn!',description='Usage: -say (message)',colour=discord.Colour.red())
+
+        embed.set_footer(text="Moderator | v1.0")
+
+        return await client.say(embed=embed)
+
+    await client.delete_message(ctx.message)
+
+    await client.say(text)
 
 
 
