@@ -47,7 +47,6 @@ async def segítség():
 
 @bot.command()
 async def info(ctx):
-embed = discord.embed(title="nice bot", description="Nicest bot there is ever.", color=0xeee657)
 
 # give info about you here
 embed.add_field(name="Author", value="<YOUR-USERNAME>")
