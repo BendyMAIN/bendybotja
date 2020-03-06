@@ -7,10 +7,7 @@ client = commands.Bot(command_prefix='/')
 
 print ("Loading....")
 
-@client.event
-async def on_ready():
-	print ("The bot is online!")
-	await client.change_presence(game=discord.Game(name='Segítségért: /segítség' ,ype=3))
+
 	
 @client.command()
 async def ping():
