@@ -42,4 +42,4 @@ async def segítség():
     embed.set_footer(text='BENDY BOT|v1.0')
     await client.say(embed=embed)
 	
-client.run("NTU2NTQ4NzM3MDM2NDUxODQ2.XmUz-A.dIINJGQ4AxGrCbksZEOnW_Xaj20") 
+client.run("NTU2NTQ4NzM3MDM2NDUxODQ2.XI1EZw.bAp74OceE9shS0_nFm8jkPcOegU") 
